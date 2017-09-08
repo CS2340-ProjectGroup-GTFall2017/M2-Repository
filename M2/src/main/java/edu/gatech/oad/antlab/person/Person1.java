@@ -12,11 +12,6 @@ public class Person1 {
   /** Holds the persons real name */
   private String name;
 
-  public static void main(String[] args) {
-	  Person1 na = new Person1("grace");
-	  String input = na.calc("grace");
-	  System.out.println(input);
-  }
   	/**
 	 * The constructor, takes in the persons
 	 * name
