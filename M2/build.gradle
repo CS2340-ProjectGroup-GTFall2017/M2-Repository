@@ -1,0 +1,17 @@
+defaultTasks 'jar'
+
+apply plugin: 'java'
+
+dependencies {
+   compile files('lib/resources.jar')
+   runtime files('../../lib/resources.jar')
+}
+
+jar { 
+	manifest {
+		attributes( 'Implementation-Title' : 'M2 Build',
+		 'Implementation-Version' : '1.2',
+		  'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain' ,
+		   'Class-Path' : '../../lib/resources.jar')
+	}
+}
