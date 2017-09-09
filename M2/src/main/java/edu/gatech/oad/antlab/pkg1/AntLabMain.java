@@ -55,7 +55,7 @@ import edu.gatech.oad.antlab.pkg2.*;
         String toPrint =
             ant11.getMessage() + ant12.getMessage() + ant21.getMessage()
           + ant22.getMessage() + ant31.getMessage();
-<<<<<<< HEAD
+//<<<<<<< HEAD
 		  //Person1 replace P1 with your name
 		  //and gburdell1 with your gt id
 		  Person1 p1 = new Person1("Eun Ji Kang");
@@ -68,20 +68,20 @@ import edu.gatech.oad.antlab.pkg2.*;
 		  //and gburdell3 with your gt id
 		  Person3 p3 = new Person3("Randy");
 		  toPrint += p3.toString("rreeves32");
-=======
+//=======
           //Person1 replace P1 with your name
           //and gburdell1 with your gt id
-          Person1 p1 = new Person1("Eun Ji Kang");
-          toPrint += p1.toString("ekang40");
+         // Person1 p1 = new Person1("Eun Ji Kang");
+        //  toPrint += p1.toString("ekang40");
           //Person2 replace P2 with your name
           //and gburdell with your gt id
-          Person2 p2 = new Person2("Heejoo");
-          toPrint += p2.toString("hcho328");
+         // Person2 p2 = new Person2("Heejoo");
+         // toPrint += p2.toString("hcho328");
           //Person3 replace P3 with your name
           //and gburdell3 with your gt id
-          Person3 p3 = new Person3("Randy");
-          toPrint += p3.toString("rreeves32");
->>>>>>> 62b534416bea636514d7c0dcb4d9e3dd30ab6ed9
+       //   Person3 p3 = new Person3("Randy");
+       //   toPrint += p3.toString("rreeves32");
+//>>>>>>> 62b534416bea636514d7c0dcb4d9e3dd30ab6ed9
                   //Person4 replace P4 with your name
                   //and gburdell4 with your gt id
                   Person4 p4 = new Person4("Joseph \"Jake\" Deerin");
@@ -103,7 +103,7 @@ import edu.gatech.oad.antlab.pkg2.*;
      public static void main(String[] args) {
 
         new AntLabMain().printOutMessage();
-<<<<<<< HEAD
+//<<<<<<< HEAD
         
      } 
     
@@ -111,12 +111,12 @@ import edu.gatech.oad.antlab.pkg2.*;
     
     
  } 
-=======
+//=======
 
-     }
-
-
+    // }
 
 
- }
->>>>>>> 62b534416bea636514d7c0dcb4d9e3dd30ab6ed9
+
+
+ //}
+//>>>>>>> 62b534416bea636514d7c0dcb4d9e3dd30ab6ed9
