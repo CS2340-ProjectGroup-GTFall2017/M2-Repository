@@ -75,11 +75,7 @@ import edu.gatech.oad.antlab.pkg2.*;
                   //and gburdell5 with your gt id
                   Person5 p5 = new Person5("Eric Malavenda");
                   toPrint += p5.toString("emalavenda3");
-<<<<<<< HEAD
 
-=======
-		  
->>>>>>> 87423ad6f16c764d852162d0234d879946aaeb7f
         System.out.println(toPrint);
 
 
